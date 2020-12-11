@@ -1,0 +1,261 @@
+/* Fonts
+    font-family: 'Poiret One', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+*/
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Page */
+.page {
+    overflow: hidden;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+.container--padding {
+    padding-left: 148px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    position: absolute;
+
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 28px 110px 0 71px;
+}
+
+.header__brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 29px;
+    color: white;
+}
+
+.header__brand span {
+    font-size: 54px;
+    color: #FFD500;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin-right: 38px;
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Poiret One', cursive;
+
+    transition: color .1s linear;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.nav__link:hover {
+    color: #D8AD47;
+    text-shadow: 0 3px 6px #D8AD47;
+}
+
+
+/* Intro */
+.intro {
+    width: 100%;
+    height: 764px;
+    padding-top: 300px;
+
+    color: white;
+    background: black url("img/intro-bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro__inner {
+    max-width: 385px;
+}
+
+.intro__title {
+    font-size: 28px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.intro__text {
+    margin: 13px 0 21px;
+
+    font-family: 'Poiret One', cursive;
+}
+
+/* Btn */
+.btn {
+    display: inline-block;
+    padding: 9px 18px;
+
+    background-color: #D8AD47;
+    border: none;
+    border-radius: 19px;
+    box-shadow: 0 0 9px #D8AD47;
+    cursor: pointer;
+
+    font-size: 17px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+
+    transition: background .1s linear;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #c49b38;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* About us */
+.about_us {
+    height: 612px;
+    padding-top: 35px;
+
+    background: black url("img/about-bg.jpg") no-repeat center;
+    background-size: cover;
+
+    color: white;
+
+    position: relative;
+
+}
+
+.about_us__block {
+    max-width: 441px
+}
+
+.about_us__block-title {
+    margin-bottom: 11px;
+
+    font-size: 28px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.block_us-title--first {
+    margin-bottom: 24px;
+
+    color: #D8AD47;
+}
+
+.about_us__block-text {
+    margin-bottom: 39px;
+}
+
+.block_us--border {
+    border-bottom: 1px solid #707070;
+}
+
+.about_us--img {
+    display: block;
+    width: 670px;
+    height: 486px;
+
+    position: relative;
+    top: -480px;
+    right: -600px;
+}
+
+.about__wood {
+    display: flex;
+    max-width: 680px;
+
+    position: relative;
+}
+
+.about__wood--img {
+    display: block;
+    width: 203px;
+    height: 122px;
+    margin-top: 39.5px;
+
+    position: relative;
+    left: -60px;
+}
+
+.about__wood--text {
+    max-width: 476px;
+    margin-top: 55.5px;
+
+    font-size: 20px;
+    color: #D8AD47;
+
+    position: relative;
+    left: -95px;
+}
+
+/* Projects */
+.projects {
+    height: 1018px;
+
+    background: black url("img/projects-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
